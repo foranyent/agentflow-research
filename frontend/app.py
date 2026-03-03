@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://127.0.0.1:8000/api/v1/research"
+API_URL = "https://agentflow-research-api.onrender.com/api/v1/research"
 
 st.set_page_config(
     page_title="AgentFlow Research",
